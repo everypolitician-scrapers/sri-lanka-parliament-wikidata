@@ -6,6 +6,7 @@ require 'wikidata/fetcher'
 require 'nokogiri'
 require 'colorize'
 require 'pry'
+require 'rest-client'
 require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
